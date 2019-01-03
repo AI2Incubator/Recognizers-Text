@@ -1657,5 +1657,16 @@
     "Input": "the face amount of its 6 1/4% convertible...",
     "Comment": "1/4 shouldn't recognized as date here",
     "Results": []
+  },
+  {
+    "Input": "I will leave on this 7th day of April, 1999",
+    "Results": [
+      {
+        "Text": "7th day of April, 1999",
+        "Type": "date",
+        "Start": 21,
+        "Length": 22
+      }
+    ]
   }
 ]
